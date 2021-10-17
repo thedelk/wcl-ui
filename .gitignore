@@ -1,6 +1,12 @@
 *.local
+*.log
 .DS_Store
 .env
+.idea/
+.vite-ssg-dist
+.vite-ssg-temp
 dist
+dist
+dist-ssr
 dist-ssr
 node_modules
