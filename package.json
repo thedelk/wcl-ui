@@ -7,10 +7,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@rpglogs/api-sdk": "^1.0.0",
     "axios": "^0.23.0",
     "devextreme": "^21.1.6",
     "devextreme-vue": "^21.1.6",
     "vue": "^3.2.16",
+    "vue-router": "4",
     "vuex": "^4.0.2",
     "vuex-persistedstate": "^4.1.0"
   },
