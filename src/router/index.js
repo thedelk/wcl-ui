@@ -1,5 +1,4 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import store                                  from '@/store'
 
 const routes = [{
   path:      `/`,

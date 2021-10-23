@@ -1,10 +1,10 @@
 const mutations = {
-  setTokenBnet (state, token) {
-    state.tokenBnet = token
+  setTokenBnet (state, payload) {
+    state.tokenBnet = payload
   },
-  setTokenWcl (state, token) {
-    state.tokenWcl = token
-  },
+  setTokenWcl (state, payload) {
+    state.tokenWcl = payload
+  }
 }
 
 export default mutations

@@ -1,11 +1,11 @@
-import api from '@/api'
+import auth from '@/api/auth'
 
 const actions = {
   async getTokenBnet ({ commit }) {
-    commit(`setTokenBnet`, await api.bnet.getToken())
+    commit(`setTokenBnet`, await auth.getTokenBnet())
   },
   async getTokenWcl ({ commit }) {
-    commit(`setTokenWcl`, await api.wcl.getToken())
+    commit(`setTokenWcl`, await auth.getTokenWcl())
   }
 }
 
