@@ -10,3 +10,11 @@ dist
 dist-ssr
 dist-ssr
 node_modules
+# Yarn files, per documentation (https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
